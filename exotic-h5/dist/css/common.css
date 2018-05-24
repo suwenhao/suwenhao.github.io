@@ -1,0 +1,137 @@
+html {
+  font-size: 14px;
+  margin: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 16px;
+  table-layout: fixed;
+  background-color: #fff;
+}
+
+.table td,
+.table th {
+  padding: 5px;
+  font-size: 14px;
+  vertical-align: top;
+  border: 1px solid #eee;
+  text-align: center;
+  color: #656b79;
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.table th {
+  font-weight: 400;
+  padding: 5px;
+  background-color: #f4f5f7;
+}
+
+.mint-swipe-indicator.is-active {
+  background: #fff;
+  opacity: 1;
+}
+
+.mint-swipe-indicator {
+  background: #666;
+  opacity: 1;
+}
+
+.mint-indicator-text {
+  font-size: 14px;
+}
+
+.mint-indicator-mask {
+  z-index: 2889;
+}
+
+.mint-indicator-wrapper {
+  z-index: 3000;
+}
+
+.mint-datetime-action {
+  font-size: 1.4px;
+  color: #000;
+  height: 40px;
+  line-height: 40px;
+}
+
+.picker-toolbar {
+  height: 40px;
+  line-height: 40px;
+}
+
+.mint-msgbox-btns {
+  height: 40px;
+  line-height: 40px;
+}
+
+.mint-msgbox-btn {
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.picker-item {
+  font-size: 14px;
+}
+
+.mint-datetime-confirm {
+  font-size: 14px;
+  color: #e56fa6;
+}
+
+.mint-msgbox-confirm {
+  color: #e56fa6;
+}
+
+.mint-msgbox-message {
+  font-size: 15px;
+}
+
+.mint-msgbox-title {
+  font-size: 15px;
+}
+
+.mint-toast.is-placetop {
+  z-index: 99999999 !important;
+}
+
+.v-modal {
+  z-index: 2001 !important;
+}
+
+.mint-popup {
+  z-index: 2004 !important;
+}
+
+.mint-msgbox-wrapper {
+  z-index: 2002 !important;
+}
+
